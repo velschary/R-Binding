@@ -3,6 +3,7 @@ import './App.css';
 import Sorting from './components/numsorting';
 import Tablesort from './components/tablesort';
 import Todolist from './datasharing/todolist';
+import Arithemeticcomp from './components/arithemetic_comp';
 
 function App() {
   const alertFun=()=>{
@@ -14,6 +15,7 @@ function App() {
       <Tablesort/>
       <hr/>
       <button onClick={alertFun}>call alert</button>
+      <Arithemeticcomp/>
       <Todolist alertFun={alertFun}/>
     </div>
   );
